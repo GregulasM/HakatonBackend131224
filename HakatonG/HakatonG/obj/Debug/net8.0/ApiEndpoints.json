@@ -1,0 +1,88 @@
+[
+  {
+    "ContainingType": "HakatonG.Controllers.ProductsController",
+    "Method": "GetAllProducts",
+    "RelativePath": "api/Products",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[HakatonG.Models.Products, HakatonG, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HakatonG.Controllers.ProductsController",
+    "Method": "AddProduct",
+    "RelativePath": "api/Products",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "product",
+        "Type": "HakatonG.Models.Products",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HakatonG.Controllers.ProductsController",
+    "Method": "GetGachiSelection",
+    "RelativePath": "api/Products/gachi-selection",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HakatonG.Controllers.ProductsController",
+    "Method": "GetMixedSelection",
+    "RelativePath": "api/Products/mixed-selection",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HakatonG.Controllers.ProductsController",
+    "Method": "GetSpecialSelection",
+    "RelativePath": "api/Products/special-selection",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HakatonG.Controllers.ProductsController",
+    "Method": "GetSuperUltraHDMaxSelection",
+    "RelativePath": "api/Products/superultrahdmax-selection",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HakatonG.Controllers.ProductsController",
+    "Method": "GetSuperUltraHDMaxOneHundredPlusUltraSelection",
+    "RelativePath": "api/Products/superultrahdmaxonehundredplusultra-selection",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

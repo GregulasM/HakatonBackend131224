@@ -1,0 +1,7 @@
+
+.btn-tw {
+  @apply bg-gradient-to-br from-orange-400 to-orange-700 text-xl font-normal text-white p-4 rounded-xl;
+}
+.btn-tw-back {
+  @apply w-fit bg-gradient-to-br from-orange-400 to-orange-700 hover:bg-orange-700 text-sm font-light text-white p-2 rounded-xl ;
+}
